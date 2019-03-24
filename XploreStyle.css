@@ -1,10 +1,9 @@
-/* Syling for the index.html */
+/*navigation bar*/
+nav li {
+ display: inline;
+ padding: 0px 10px 0px 10px;
+}
+/*Screen contraints */
+@media (max-width: 500px) {
 
-
-/* Styling for the FoodTravel.html */
-
-
-/* Styling  for the LifestyleMusic.html */
-
-
-/* STyling for the WhatNextForm */
+}
