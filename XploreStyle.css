@@ -29,11 +29,13 @@ topnav {
   background-color: #ddd;
   color: black;
 }
+.topnav a.active {
+.active {
+  background-color: #4CAF50;
+}
 
-
-
-/* Add a color to the active/current link */
-/*.topnav a.active {
+/* Add a color to the active/current link
+.topnav a.active {
   background-color: #4CAF50;
   color: white;
 }*/
