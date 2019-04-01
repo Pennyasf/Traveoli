@@ -1,4 +1,8 @@
-/* Syling for the index.html */
+/*title*/
+h1{
+  text-align: center;
+}
+/*Navbar*/
 
 
 /* Styling for the FoodTravel.html */
@@ -9,9 +13,18 @@
 
 /* STyling for the WhatNextForm */
 
-topnav {
-  background-color: #333;
-  overflow: hidden;
+.topnav {
+
+  /*background-color: #555;8*/
+
+margin:0 auto;
+
+
+     display: block;
+
+
+
+   overflow: auto;
 }
 
 /* Style the links inside the navigation bar */
@@ -22,6 +35,9 @@ topnav {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  background-color: #ddd;
+  padding:10px 80px 10px 80px;
+
 }
 
 /* Change the color of links on hover */
