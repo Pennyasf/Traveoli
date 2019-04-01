@@ -16,15 +16,9 @@ h1{
 .topnav {
 
   /*background-color: #555;8*/
-
-margin:0 auto;
-
-
-     display: block;
-
-
-
-   overflow: auto;
+  margin:0 auto;
+  display: block;
+  overflow: auto;
 }
 
 /* Style the links inside the navigation bar */
