@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-
 <!--header-->
-
+<!--test-->
   <head>
+    <!--Don't forget to insert link to bootstrap-->
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="XploreStyle.css">
-
 <!-- put the name of the css doc in the quotes-->
 
-    <title> Xplore - What Next? </title>
+    <title> Traveoli </title>
   </head>
 
 <!--body-->
@@ -19,83 +19,59 @@
 <!--This row contains the title-->
       <div class="row">
         <div class="col-lg-12">
-          <h1 id="mainheader"> Xplore </h1>
+          <h1 id="mainheader"> Traveoli </h1>
         </div>
       </div>
 
 <!--This row contains the navigation bar-->
       <div class="row">
         <nav>
-          <ul>
-
           <!--Note for me (Anna), just ignore it: dont forget to set padding in css to 10px for the list-->
           <!--put li in line, with css display: inline;-->
-
-            <div class="col-sm-2">
-              <li><a href="Index.html">Main Page</a></li>
-            </div>
-
-      <!-- Picture here-->
-            <div class="col-sm-1">
-              <img= >
-            </div>
-
-            <div class="col-sm-2">
-              <li><a href="LifestyleMusic.html">Lifestyle & Fashion</a></li>
-            </div>
-
-        <!-- Picture here-->
-            <div class="col-sm-1">
-              <img= >
-            </div>
-
-            <div class="col-sm-2">
-              <li><a href="FoodTravel.html">Food & Travel</a></li>
-            </div>
-
-        <!-- Picture here-->
-            <div class="col-sm-1">
-              <img= >
-            </div>
-
-            <div class="col-sm-2">
-              <li><a href="WhatNextForm.html">What do you want to see?</a></li>
-            </div>
-
-      <!-- Picture here-->
-            <div class="col-sm-1">
-              <img= >
-            </div>
-          </ul>
+          <div class="topnav">
+            <a class="active" href="Index.html">Main Page</a>
+            <a href="Europe.html">Europe</a>
+            <a href="Asia.html">Asia</a>
+            <a href="WhatNextForm.html">What do you want to see?</a>
+          </div>
         </nav>
+
+<!-- This contains the scrolling pictures -->
+      <div class="row">
+        <div class="col-lg-12">
+
+        </div>
       </div>
     </div>
     <hr size="3" />
 
-<!-- explaion what the form is for -->
-    <div id="explination">
-      <p></p>
-    </div>
-<!-- the actual form -->
-    <div id="form">
-      <form action="FormCollection.html" method="post">
-<!-- Put question in next line -->
-        <h3>What do you want to see next?</h3>
-        <p>First, please indicate if you have a specific Country, or Music video in mind.</P>
-<!-- Checkbox question -->
-        <div>
-          <label for="Country">A specific Country</label>
-          <input id="Country" name="Country" type="Checkbox" value="Country">
-          <br>
-          <label for="MusicVideo">A specific Music Video or Artist</label>
-          <input id="MusicVideo" name="MusicVideo" type="Checkbox" value="MusicVideo">
-        </div>
-<!-- Large box type question -->
-        <br><br>
-        <label for="WhatTheyWantToSee">What is it that you want us to write about?</label>
-        <input id="WhatTheyWantToSee" name="WhatTheyWantToSee" type="text" >
 
-      </form>
+<!-- explaion what the form is for -->
+    <div id=form>
+      <div id="explination">
+        <p></p>
+      </div>
+  <!-- the actual form -->
+      <div id="form">
+        <form action="FormCollection.html" method="post">
+  <!-- Put question in next line -->
+          <h3>What do you want to see next?</h3>
+          <p>First, please indicate if you have a specific Country, or Music video in mind.</P>
+  <!-- Checkbox question -->
+          <div>
+            <label for="Country">A specific Country</label>
+            <input id="Country" name="Country" type="Checkbox" value="Country">
+            <br>
+            <label for="MusicVideo">A specific Music Video or Artist</label>
+            <input id="MusicVideo" name="MusicVideo" type="Checkbox" value="MusicVideo">
+          </div>
+  <!-- Large box type question -->
+          <br><br>
+          <label for="WhatTheyWantToSee">What is it that you want us to write about?</label>
+          <input id="WhatTheyWantToSee" name="WhatTheyWantToSee" type="text" >
+
+        </form>
+      </div>
     </div>
 
   </body>
