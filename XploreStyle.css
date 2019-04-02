@@ -1,37 +1,27 @@
-/*title*/
-h1{
+/* header style */
+h1 {
   text-align: center;
 }
-/*Navbar*/
 
-
-/* Styling for the FoodTravel.html */
-
-
-/* Styling  for the LifestyleMusic.html */
-
-
-/* STyling for the WhatNextForm */
-
+/*navbar*/
 .topnav {
-
-  /*background-color: #555;8*/
+  max-width: 100%;
   margin:0 auto;
   display: block;
   overflow: auto;
+  background-color: #333;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   background-color: #ddd;
   padding:10px 80px 10px 80px;
-
 }
 
 /* Change the color of links on hover */
@@ -40,10 +30,51 @@ h1{
   color: black;
 }
 
-
-
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
 }
+
+
+/*picture sizes */
+.carousel-item {
+  max-width: 100%;
+  width: 1000px;
+}
+
+/* asia title overlap */
+.asia {
+  position: relative;
+}
+
+.asiatitle {
+  color: white;
+  size: 20px;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(26,26,26,0.5);
+  padding: 20px 20px 100px 20px;
+  margin: 10;
+  width: 1000px;
+}
+
+/* europe title overlap */
+.europe {
+  position: relative;
+}
+
+.europetitle {
+  color: white;
+  size: 20px;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(26,26,26,0.5);
+  padding: 20px 20px 100px 20px;
+  margin: 10;
+  width: 1000px;
+}
+
+/*making methods and ingredients hide and unhide upon click
+display: none;
+display: block; */
