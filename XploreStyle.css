@@ -5,7 +5,6 @@ h1 {
 
 /*navbar*/
 .topnav {
-  max-width: 100%;
   margin:0 auto;
   display: block;
   overflow: auto;
@@ -16,11 +15,11 @@ h1 {
 .topnav a {
   float: left;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+/*  text-decoration: none; */
   font-size: 17px;
-  padding:10px 80px 10px 80px;
+  padding: 10px 10px;
+  text-align: center;
+  width: 25%;
 }
 
 /* Change the color of links on hover */
@@ -38,16 +37,15 @@ h1 {
 
 /*picture sizes */
 .carousel-item {
-  max-width: 100%;
-  width: 1000px;
+  width: 100%;
 }
 
-/* asia title overlap */
-.asia {
+/* carousel overlap */
+.carouselbackground {
   position: relative;
 }
 
-.asiatitle {
+.carouseltitle {
   color: white;
   size: 20px;
   position: absolute;
@@ -55,25 +53,17 @@ h1 {
   background-color: rgba(26,26,26,0.5);
   padding: 20px 20px 100px 20px;
   margin: 10;
-  width: 1000px;
+  width: 100%;
 }
 
-/* europe title overlap */
-.europe {
-  position: relative;
+
+.btn {
+  background-color: black;
+  margin: 0 auto;
+  padding: 20px 200px 20px 200px;
+  width: 100%;
 }
 
-.europetitle {
-  color: white;
-  size: 20px;
-  position: absolute;
-  bottom: 0;
-  background-color: rgba(26,26,26,0.5);
-  padding: 20px 20px 100px 20px;
-  margin: 10;
-  width: 1000px;
+.RecipePicture {
+  width: 100%;
 }
-
-/*making methods and ingredients hide and unhide upon click
-display: none;
-display: block; */
