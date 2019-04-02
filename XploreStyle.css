@@ -14,17 +14,10 @@ h1{
 /* STyling for the WhatNextForm */
 
 .topnav {
-
   /*background-color: #555;8*/
-
-margin:0 auto;
-
-
-     display: block;
-
-
-
-   overflow: auto;
+  margin:0 auto;
+     /* display: block; */
+ overflow: auto;
 }
 
 /* Style the links inside the navigation bar */
@@ -32,11 +25,10 @@ margin:0 auto;
   float: left;
   color: black;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   background-color: #ddd;
-  padding:10px 80px 10px 80px;
+  padding:10px 80px;
 
 }
 
