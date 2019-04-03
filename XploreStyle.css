@@ -1,6 +1,8 @@
 /* header style */
 h1 {
   text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 56px;
 }
 
 /*navbar*/
@@ -8,7 +10,7 @@ h1 {
   margin:0 auto;
   display: block;
   overflow: auto;
-  background-color: #333;
+  background-color: rgba(51,51,51,1) /* was #333, same colour in rgba*/;
 }
 
 /* Style the links inside the navigation bar */
@@ -30,12 +32,12 @@ h1 {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: rgb(237, 157, 96) /* was #4CAF50 */;
   color: white;
 }
 
-
-/*picture sizes */
+/*carousel*/
+/*carousel picture sizes */
 .carousel-item {
   width: 100%;
 }
@@ -55,8 +57,7 @@ h1 {
   margin: 10;
   width: 100%;
 }
-
-
+/* drop down button appearance on europe and asia */
 .btn {
   background-color: black;
   margin: 0 auto;
@@ -64,6 +65,21 @@ h1 {
   width: 100%;
 }
 
+/* appearance of dish picture */
 .RecipePicture {
   width: 100%;
+}
+
+/* Introduction on Index */
+
+/*footer*/
+footer {
+  background-color: rgba(51,51,51,1);
+  color: white;
+}
+
+/* form */
+.form {
+  text-align: center;
+  
 }
