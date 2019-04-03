@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="XploreStyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
 
 
     <title> Traveoli </title>
@@ -25,42 +27,39 @@
 
 <!--This row contains the navigation bar-->
       <div class="row">
-        <nav>
-          <!--Note for me (Anna), just ignore it: dont forget to set padding in css to 10px for the list-->
-          <!--put li in line, with css display: inline;-->
-          <div class="topnav">
-            <a href="Index.html">Main Page</a>
-            <a href="Europe.html">Europe</a>
-            <a class="active" href="Asia.html">Asia</a>
-            <a href="WhatNextForm.html">What do you want to see?</a>
-          </div>
-          <hr size="3" />
-        </nav>
+        <div class="col-sm-12">
+          <nav>
+            <!--Note for me (Anna), just ignore it: dont forget to set padding in css to 10px for the list-->
+            <!--put li in line, with css display: inline;-->
+            <div class="topnav">
+              <a href="Index.html" >Main Page</a>
+              <a href="Europe.html" >Europe</a>
+              <a class="active" href="Asia.html">Asia</a>
+              <a href="WhatNextForm.html" >What do you want to see?</a>
+            </div>
+            <hr size="3" />
+          </nav>
+        </div>
       </div>
 
       <div class="row">
       <!-- column for the pic food -->
-        <div class="col-md-2">
+        <div class="col-md-3">
+          <img class="RecipePicture" src="Pictures\AsiaPicture.jpg" alt="PUT FOOD PICTURE DESCRIPTION HERE">
         </div>
 
 <!-- column for the title of food that acts as a drop down-->
-        <div class="col-md-10">
+        <div class="col-md-9">
         <p>
-          <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">INSERT FOOD TITLE HERE</a>
+          <a class="btn" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">INSERT FOOD TITLE HERE</a>
         </p>
           <div class="row">
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample1">
                 <div class="card card-body">
                   <div class="row">
-          <!-- description -->
-                    <div class="col-lg-2">
-                      <p>
-                        Put short description here
-                      </p>
-                    </div>
             <!-- ingredients -->
-                    <div class="col-lg-5">
+                    <div class="col-md-6">
                       <h3>INGREDIENTS</h3>
                       <p>
                         <ul>
@@ -70,7 +69,7 @@
                       </p>
                     </div>
             <!-- method -->
-                    <div class="col-lg-5">
+                    <div class="col-md-6">
                       <h3>METHOD</h3>
                       <p>
                         <ol>
@@ -80,12 +79,18 @@
                       </p>
                     </div>
                   </div>
-                  <p>PUT A LITTLE HOPE YOU ENJOY MESSAGE HERE</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+<!-- description -->
+      <div class="row">
+        <div class="col-lg-3">
+          <p>blah</p>
+        </div>
+
       </div>
     </div>
     <!-- <script src="bootstrap.js" charset="utf-8"></script> -->

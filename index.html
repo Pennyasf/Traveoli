@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="XploreStyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 
     <title> Traveoli </title>
   </head>
@@ -25,18 +26,28 @@
 
 <!--This row contains the navigation bar-->
       <div class="row">
-        <nav>
-          <!--Note for me (Anna), just ignore it: dont forget to set padding in css to 10px for the list-->
-          <!--put li in line, with css display: inline;-->
-          <div class="topnav">
-            <a class="active" href="Index.html">Main Page</a>
-            <a href="Europe.html">Europe</a>
-            <a href="Asia.html">Asia</a>
-            <a href="WhatNextForm.html">What do you want to see?</a>
-          </div>
-        </nav>
+        <div class="col-sm-12">
+          <nav>
+            <!--Note for me (Anna), just ignore it: dont forget to set padding in css to 10px for the list-->
+            <!--put li in line, with css display: inline;-->
+            <div class="topnav">
+              <a class="active" href="Index.html">Main Page</a>
+              <a href="Europe.html">Europe</a>
+              <a href="Asia.html">Asia</a>
+              <a href="WhatNextForm.html">What do you want to see?</a>
+            </div>
+            <hr size="3" />
+          </nav>
+        </div>
       </div>
-      <hr size="3" />
+
+      <!-- introduction to explain page -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>INTRODUCTION</h3>
+          <p>SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT</p>
+        </div>
+      </div>
 
       <!-- carousel -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -45,12 +56,12 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active" class="asia">
-            <h2 class="asiatitle">Asia</h2>
+          <div class="carousel-item active" class="carouselbackground">
+            <h2 class="carouseltitle">Asia</h2>
             <a href="Asia.html"><img class="d-block w-100" src="Pictures\AsiaPicture.jpg" alt="First slide"></a>
           </div>
-          <div class="carousel-item" class=europe>
-            <h2 class="europetitle">Europe</h2>
+          <div class="carousel-item" class="carouselbackground">
+            <h2 class="carouseltitle">Europe</h2>
             <a href="europe.html"><img class="d-block w-100" src="Pictures\EuropePicture.jpg" alt="Second slide"></a>
           </div>
         </div>
@@ -63,10 +74,34 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-
       <!--end carousel -->
 
+<!-- Link to what next form -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Got an idea about what you want to see next?</h2>
+          <p>Click here to fill in a form and share all your great ideas with us! <span id="WhatNextIndexButton"><a href="WhatNextForm.html"><br><br>Click here for the form.</a></span></p>
+        </div>
+      </div>
     </div>
+
+<!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <!-- redistribute the columns as to how you want to do the footer -->
+          <div class="col-lg-5">
+            <h4>TITLE TITLE TITLE</h4>
+            <p>INFOMRATION INFOMRATION INFOMRATION INFOMRATION</p>
+          </div>
+          <div class="col-lg-5">
+            <h4>TITLE TITLE TITLE</h4>
+            <p>INFOMRATION INFOMRATION INFOMRATION INFOMRATION</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- <script src="bootstrap.js" charset="utf-8"></script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

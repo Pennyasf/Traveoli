@@ -1,26 +1,27 @@
 /* header style */
 h1 {
   text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 56px;
 }
 
 /*navbar*/
 .topnav {
-  max-width: 100%;
   margin:0 auto;
   display: block;
   overflow: auto;
-  background-color: #333;
+  background-color: rgba(51,51,51,1) /* was #333, same colour in rgba*/;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+/*  text-decoration: none; */
   font-size: 17px;
-  padding:10px 80px 10px 80px;
+  padding: 10px 10px;
+  text-align: center;
+  width: 25%;
 }
 
 /* Change the color of links on hover */
@@ -31,23 +32,22 @@ h1 {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: rgb(237, 157, 96) /* was #4CAF50 */;
   color: white;
 }
 
-
-/*picture sizes */
+/*carousel*/
+/*carousel picture sizes */
 .carousel-item {
-  max-width: 100%;
-  width: 1000px;
+  width: 100%;
 }
 
-/* asia title overlap */
-.asia {
+/* carousel overlap */
+.carouselbackground {
   position: relative;
 }
 
-.asiatitle {
+.carouseltitle {
   color: white;
   size: 20px;
   position: absolute;
@@ -55,25 +55,31 @@ h1 {
   background-color: rgba(26,26,26,0.5);
   padding: 20px 20px 100px 20px;
   margin: 10;
-  width: 1000px;
+  width: 100%;
+}
+/* drop down button appearance on europe and asia */
+.btn {
+  background-color: black;
+  margin: 0 auto;
+  padding: 20px 200px 20px 200px;
+  width: 100%;
 }
 
-/* europe title overlap */
-.europe {
-  position: relative;
+/* appearance of dish picture */
+.RecipePicture {
+  width: 100%;
 }
 
-.europetitle {
+/* Introduction on Index */
+
+/*footer*/
+footer {
+  background-color: rgba(51,51,51,1);
   color: white;
-  size: 20px;
-  position: absolute;
-  bottom: 0;
-  background-color: rgba(26,26,26,0.5);
-  padding: 20px 20px 100px 20px;
-  margin: 10;
-  width: 1000px;
 }
 
-/*making methods and ingredients hide and unhide upon click
-display: none;
-display: block; */
+/* form */
+.form {
+  text-align: center;
+  
+}
