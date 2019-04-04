@@ -1,9 +1,35 @@
+/* background website colour */
+body {
+  background-color: rgb(252, 254, 248);
+  font-family: 'Cormorant Garamond', serif;
+
+}
+
+/*footer, da fuck*/
+footer {
+  background-color: rgba(51,51,51,1);
+  color: white;
+  Width: 100%;
+  bottom: 0;
+/*  position: absolute;
+  margin: 0 auto;
+  top: 90%; */
+}
+
 /* header style */
 h1 {
   text-align: center;
   font-family: 'Fjalla One', sans-serif;
   font-size: 56px;
 }
+
+/*Header fonts*/
+.header {
+  font-family: 'EB Garamond', serif;
+}
+
+
+
 
 /*navbar*/
 .topnav {
@@ -17,11 +43,12 @@ h1 {
 .topnav a {
   float: left;
   color: white;
-/*  text-decoration: none; */
   font-size: 17px;
   padding: 10px 10px;
   text-align: center;
   width: 25%;
+  font-family: 'EB Garamond', serif;
+
 }
 
 /* Change the color of links on hover */
@@ -74,31 +101,28 @@ h1 {
 /* Introduction on Index */
 
 
+#signatures {
+  font-family: 'Sacramento', cursive;
+}
+
 /* form */
 .form {
   text-align: center;
 }
 
-/* background website colour */
-body {
-  background-color: rgb(252, 254, 248);
-}
 
-/*footer, da fuck*/
-
-footer {
-  background-color: rgba(51,51,51,1);
-  color: white;
-  Width: 100%;
-  bottom: 0;
-/*  position: absolute;
-  margin: 0 auto;
-  top: 90%; */
-
-}
 
 
 /* screen constraints
 @media (max-width ...) {
 
 } */
+
+/* The font for the text of the page
+font-family: 'Cormorant Garamond', serif; */
+
+/* The font family of the headers
+font-family: 'EB Garamond', serif; */
+
+/* The font family of our signatures
+font-family: 'Sacramento', cursive; */
