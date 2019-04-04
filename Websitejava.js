@@ -14,22 +14,20 @@
  //   });
  //     window.close();
 
- var bar = "submit";
+
 $("button").click(function() {
-  var foo=bar;
-  if ( foo == "submit" ) {
     var isGood=confirm('Are you sure you wish to submit?');
       if (isGood==true)
         {
           alert("This is the if bit");
-          $.get("index.html");
+          window.location.href="index.html";
       }
       else
         {
           alert("This is the else bit");
-          $.get("asia.html");
+          window.location.href="asia.html";
       }
-  }
+  
 });
 
 // function confirmation(){

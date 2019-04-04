@@ -63,6 +63,7 @@ h1 {
   margin: 0 auto;
   padding: 20px 200px 20px 200px;
   width: 100%;
+  max-width: 100%;
 }
 
 /* appearance of dish picture */
@@ -72,14 +73,32 @@ h1 {
 
 /* Introduction on Index */
 
-/*footer*/
-footer {
-  background-color: rgba(51,51,51,1);
-  color: white;
-}
 
 /* form */
 .form {
   text-align: center;
-  
 }
+
+/* background website colour */
+body {
+  background-color: rgb(252, 254, 248);
+}
+
+/*footer, da fuck*/
+
+footer {
+  background-color: rgba(51,51,51,1);
+  color: white;
+  Width: 100%;
+  bottom: 0;
+/*  position: absolute;
+  margin: 0 auto;
+  top: 90%; */
+
+}
+
+
+/* screen constraints
+@media (max-width ...) {
+
+} */
