@@ -11,9 +11,26 @@ footer {
   color: white;
   Width: 100%;
   bottom: 0;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
 /*  position: absolute;
   margin: 0 auto;
   top: 90%; */
+}
+
+#logo {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.SecondFooter {
+  background-color: rgb(237, 157, 96);
+  text-align: center;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
 }
 
 /* header style */
