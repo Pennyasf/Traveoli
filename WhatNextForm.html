@@ -40,18 +40,17 @@
           </nav>
         </div>
       </div>
+    </div>
 
-
-<!-- explaion what the form is for -->
     <div>
-      <div id="explination">
-        <p></p>
-      </div>
   <!-- the actual form -->
       <div class="form">
         <form action="FormCollection.html" method="post">
   <!-- Put question in next line -->
           <h3 class="header">What do you want to see next?</h3>
+          <div id="explination">
+            <p>blah</p>
+          </div>
           <p>First, please indicate if you have a specific Country, or dish in mind.</P>
   <!-- Checkbox question -->
           <div>
@@ -63,10 +62,19 @@
           </div>
   <!-- Large box type question -->
           <br><br>
-          <label for="WhatTheyWantToSee">What is it that you want us to write about?</label>
-          <input id="WhatTheyWantToSee" name="WhatTheyWantToSee" type="text" >
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                  <label for="WhatTheyWantToSee"> What is it that you want us to write about?
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <textarea rows="4" cols="50" id="WhatTheyWantToSee" name="WhatTheyWantToSee"> Type what you'd like to see here. </textarea></label>
+              </div>
+            </div>
+          </div>
           <div id="buttonid">
-            <!-- <button type="button" name="button">Submit</button> -->
             <button type="submit" onclick>Submit</button>
           </div>
         </form>
