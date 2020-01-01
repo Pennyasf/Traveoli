@@ -5,4 +5,14 @@ This is a website I co-developed along with Fsewell1, as part of an end of cours
 This website specifically is an early idea of a food travel blog where you post recipes for meals from different countries.
 
 Below you can see some pictures of the website:
+The Index:
 ![Top of the index page](/Pictures/PicturesOfSite/Index1.png)
+![Top of the index page](/Pictures/PicturesOfSite/Index2.png)
+
+The 'Europe' Page:
+![Top of the index page](/Pictures/PicturesOfSite/Europe1.png)
+When the button is clicked:
+![Top of the index page](/Pictures/PicturesOfSite/EuropeClicked.png)
+
+The page with the form asking what the user may want to see next:
+![Top of the index page](/Pictures/PicturesOfSite/Form.png)
